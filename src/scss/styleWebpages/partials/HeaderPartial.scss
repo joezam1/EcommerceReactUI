@@ -1,0 +1,323 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color:pink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.header-section{
+    border:0px solid transparent;
+    position:relative;
+    height: 505px;
+}
+
+.navbar-container{
+    border: 0px solid transparent;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+}
+.logo{
+	background: radial-gradient(circle at top right,#fec5d5, #fedfe8);
+	border: 1px solid #f5c5ca;
+	border-radius:5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height:80px;
+	margin:10px 25px;
+	opacity: 0.7;
+	position: relative;
+    width: 200px;
+	z-index:1000;
+}
+
+.logo-image{
+  height:120px;
+ 
+  position:relative;
+  top:-30px;
+  width:200px;
+  z-index:1200;
+}
+
+// .logo{
+//     border: 1px solid red;
+//     float:left;
+//     left:0px;
+//     padding:20px;
+//     position:relative;
+//     z-index:1;
+// }
+
+
+//ul
+.navbar{
+    border: 1px solid red;
+    float: left;
+    list-style-type: none;
+    padding:0px;
+    margin-top:0px;
+    position: relative;
+    top:5px;
+    width:800px;
+    z-index:500;
+}
+
+//ul li
+.navbar .navbar-li{
+	display: inline;
+}
+
+.navbar-li-access-area{
+    display:none;
+}
+
+.bton{
+    background:transparent;
+    border:2px solid transparent;
+	border-radius:5px;
+	color:white;
+	font-size:22px;
+	text-align:center;
+    text-shadow:2px 2px 2px red,
+                1px 1px 2px #690711,
+                0 0 6px blueviolet;
+	-webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+
+.bton:hover{
+	background-color: #f7f1f1;
+    cursor: pointer;
+}
+
+.navbar-button{
+    margin:10px;
+    padding:10px;
+	min-width:80px;
+}
+
+.status-active{
+    border:2px solid white;
+  }
+
+.navbar-mobile-button{
+    border: 0px solid transparent;
+    cursor:pointer;
+	display: none;
+    float:right;
+	position:relative;
+	top:15px;
+	width:50px;
+    z-index:1000;
+}
+
+.navbar-mobile-line{
+    color:black;
+    background-color:white;
+    height:3px;
+    margin:7px;
+    margin:10px;
+    width:40px;
+}
+
+.fadeIn {
+    animation-duration: 2s ;
+    animation-name: fadeIn;
+    animation-fill-mode:forwards;
+}
+
+@keyframes fadeIn {
+  from {
+     opacity: 0.6;
+     top:-250px;
+  }
+  to {
+     opacity: 1;
+     top:50px;
+  }
+}
+
+.fadeOut {
+    animation-duration: 2s;
+    animation-name: fadeOut;
+    animation-fill-mode:forwards;
+}
+
+@keyframes fadeOut {
+  from {
+     opacity: 1;
+     top:50px;
+  }
+  to {
+     opacity: 0;
+     top:-250px;
+  }
+}
+
+.canvas{
+    border: 0px solid transparent;
+    position: absolute;
+    width:100%;
+    height:500px;
+    z-index:1;
+}
+
+
+.customer-section{
+    border: 0px solid transparent;
+    float: right;
+    position:relative;
+    right: 100px;
+    height:150px;
+    width:250px;
+    z-index:500;
+}
+
+
+
+.search-textbox{
+    border-top-left-radius:10px; 
+    border-bottom-left-radius:10px; 
+    height:33px;
+    margin-left:10px;
+    width:150px;
+}
+
+.search-button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    font-size:22px;
+    height: 33px;
+    top: 5px;
+    position: relative;
+    width: 70px;
+}
+
+
+
+.contact-email{
+    margin:10px;
+}
+
+.cart-info{
+    margin-left:10px;
+}
+
+
+.access-area-ul{
+    border: 1px solid red;
+    height:40px;
+    list-style-type: none;
+    position:relative;
+}
+.access-area-li{
+    float:left;
+}
+
+//ul li
+.access-area-ul .access-area-li{
+	display: inline;
+}
+
+.login{
+    cursor: pointer;
+    float:left;
+    height: 35px;
+    position: relative;
+    width:90px;
+}
+
+.login:hover{
+	background-color: #f7f1f1;
+    cursor: pointer;
+}
+
+.register{
+    cursor: pointer;
+    height:35px;
+    width: 110px;
+}
+
+
+@-moz-document url-prefix() 
+{
+
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {  }
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+    .logo {        
+        left: 1px;
+        position: relative;
+        z-index:1;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px){
+    .logo{
+        position:absolute;
+        left:-12px;
+    }
+    .navbar{
+        opacity:0;
+        position: absolute;
+    }
+
+    .navbar-li{
+        height: 60px;
+    }
+    //ul li
+    .navbar .navbar-li{
+        display: block;
+    }
+
+    .navbar-mobile-button{
+        display: block;
+        float:right;
+        position: absolute;
+        right:60px;
+    }
+
+    .navbar .navbar-li-access-area{
+        display:block;
+    }
+
+    .customer-section{
+        height:45px;
+        right:115px;
+    }
+
+    .contact-email{
+        display:none;
+    }
+
+    .cart-info{
+        display:none;
+    }
+
+    .access-area-ul{
+        display:none;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    .logo{
+        display:none;
+    }
+}
