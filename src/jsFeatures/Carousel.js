@@ -15,17 +15,17 @@ function insertImagesInTargetElement(){
     var target = document.getElementsByClassName('hero-carousel');
     if(isValid(target)){
         var fileLocation = [
-            './src/assets/images/ringpixel-bee-6XjrarDC97U-unsplash.jpg',
-                './src/assets/images/diamond-1186139_1920.jpg',
-                './src/assets/images/ring-heather-mount-ph3z4KuJ4OA-unsplash.jpg',
-                 './src/assets/images/diamond-1199183_1920.jpg' ,
-                 './src/assets/images/ringringkuromi-lu-_OG-hxrBSUQ-unsplash.jpg'
+            './assets/images/ringpixel-bee-6XjrarDC97U-unsplash.jpg',
+                './assets/images/diamond-1186139_1920.jpg',
+                './assets/images/ring-heather-mount-ph3z4KuJ4OA-unsplash.jpg',
+                 './assets/images/diamond-1199183_1920.jpg' ,
+                 './assets/images/ringringkuromi-lu-_OG-hxrBSUQ-unsplash.jpg'
                  ,
-                 './src/assets/images/diamond-1839031_1920.jpg',
-                  './src/assets/images/necklacerose-3030462_1920.jpg',
-                  './src/assets/images/ringamethyst-2186842_1920.jpg',
-                  './src/assets/images/diamonds-2142417_1280.jpg',
-                  './src/assets/images/ringwedding-812967_1920.jpg'
+                 './assets/images/diamond-1839031_1920.jpg',
+                  './assets/images/necklacerose-3030462_1920.jpg',
+                  './assets/images/ringamethyst-2186842_1920.jpg',
+                  './assets/images/diamonds-2142417_1280.jpg',
+                  './assets/images/ringwedding-812967_1920.jpg'
         ];
 
         var imageElementsArray = [];

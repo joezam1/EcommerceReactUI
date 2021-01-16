@@ -25,16 +25,16 @@ export default function FooterIndex(){
                                    
                                     <li className="footer-content-li"><br/></li>
                                     <li className="footer-content-li">
-                                        <img src="./src/assets/socialMedia/twitter_Logo_WhiteOnBlue.png" alt="twitter" className="twitter-icon"/>
+                                        <img src="./assets/socialMedia/twitter_Logo_WhiteOnBlue.png" alt="twitter" className="twitter-icon"/>
                                     </li>                                    
                                     <li className="footer-content-li">
                                     <div className="facebook-icon-container">
-                                        <img src="./src/assets/socialMedia/facebook-124010.png" alt="facebook" className="facebook-icon"/>
+                                        <img src="./assets/socialMedia/facebook-124010.png" alt="facebook" className="facebook-icon"/>
                                     </div>
                                       
                                     </li>
                                     <li className="footer-content-li">
-                                        <img src="./src/assets/socialMedia/instagram-logo.png" alt="instagram" className="instagram-icon"/>
+                                        <img src="./assets/socialMedia/instagram-logo.png" alt="instagram" className="instagram-icon"/>
                                     </li>
                                     <li className="footer-content-li"></li>
                                 </ul>

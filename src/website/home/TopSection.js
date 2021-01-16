@@ -21,7 +21,7 @@ export default function TopSection(){
 
     useEffect(function(){
         mounted = true;
-
+        console.log('MidSection-productsCallback-triggered')
         Carousel.runCarousel();
         return cleanup();
     },[]);
@@ -85,8 +85,6 @@ export default function TopSection(){
         if(mounted){
             setStatusesStateAsync(allActiveStatuses);
         }
-        
-        
     }
 
     DataStoreInvoker.notifyDataStoreState('statusesOnDisplay','statusCallback', statusCallback);
@@ -115,7 +113,7 @@ export default function TopSection(){
                 </div>
                 <div className="navbar-container">
                     <div className="logo">
-                        <img src='./src/assets/logo/alisa_logo.png' className="logo-image" alt="alisaJewellery"/>
+                        <img src='./assets/logo/alisa_logo.png' className="logo-image" alt="alisaJewellery"/>
                     </div>
                     <ul id="navbar-mobile-id" className= "navbar">
                         {statuses}

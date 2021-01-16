@@ -13,7 +13,6 @@ export default function Body(){
 
 
     //var abortController = new AbortController();
-
     // function cleanup(){
     //     abortController.abort();
     // }
@@ -21,8 +20,6 @@ export default function Body(){
     // useEffect(function(){
     //     return cleanup();
     // },[]);
-
-
 
     function displaySingleProduct(event){
         var id = parseInt(event.target.id);
@@ -122,7 +119,7 @@ export default function Body(){
                                     <div className="product-container" id={item.ProductId} onClick={displaySingleProduct}>
                                         <div className="price-container" id={item.ProductId} onClick={displaySingleProduct}></div>
                                         <h3 className="product-price" id={item.ProductId} item={item}> ${item.Price} </h3>
-                                        <img src={'./src/assets/products/' + item.ImageHref1} id={item.ProductId} className="product-image"/>
+                                        <img src={'./assets/products/' + item.ImageHref1} id={item.ProductId} className="product-image"/>
                                         <div className="category-text-container" id={item.ProductId} onClick={displaySingleProduct}></div>
                                         <span className='category-text' id={item.ProductId}> {getSelectedStatusName(item.StatusId)}</span>
                                     </div>

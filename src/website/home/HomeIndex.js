@@ -4,7 +4,7 @@ import Body from './Body.js';
 import FooterIndex from './footer/FooterIndex.js';
 
 import Methods from '../../httpRequests/Methods.js';
-import jsonDataFile from '../../../shopData.json';
+import jsonDataFile from '../../../dataJson/shopData.json';
 import ShopStoreReducer from '../../dataStore/ShopStoreReducer.js';
 
 
@@ -73,9 +73,9 @@ export default function HomeIndex(){
         abortController.abort();
     }
     useEffect(function(){
-        //mockResponseCallback();
-        Methods.getMethod(url, homeBodyResponseCallback );
-        return cleanupFetch();
+        mockResponseCallback();
+        //Methods.getMethod(url, homeBodyResponseCallback );
+        //return cleanupFetch();
     },[]);
 
     return(<div className="home-index">
