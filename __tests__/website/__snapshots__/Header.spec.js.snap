@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`File Header Create a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="header-section"
+  >
+    <div
+      class="carousel-container"
+    >
+      <div
+        class="canvas"
+      >
+        <section
+          class="hero-carousel-container"
+          id="hero-slider-id"
+        >
+          <div
+            class="hero-carousel"
+            id="hero-carousel-id"
+          >
+            <img
+              class="sliding-image display"
+              id="image_0"
+              src="./assets/images/ringpixel-bee-6XjrarDC97U-unsplash.jpg"
+            />
+            <img
+              class="sliding-image hide"
+              id="image_1"
+              src="./assets/images/diamond-1186139_1920.jpg"
+            />
+            <img
+              class="sliding-image hide"
+              id="image_2"
+              src="./assets/images/ring-heather-mount-ph3z4KuJ4OA-unsplash.jpg"
+            />
+            <img
+              class="sliding-image hide"
+              id="image_3"
+              src="./assets/images/diamond-1199183_1920.jpg"
+            />
+            <img
+              class="sliding-image hide"
+              id="image_4"
+              src="./assets/images/ringringkuromi-lu-_OG-hxrBSUQ-unsplash.jpg"
+            />
+            <img
+              class="sliding-image hide"
+              id="image_5"
+              src="./assets/images/diamond-1839031_1920.jpg"
+            />
+            <img
+              class="sliding-image hide"
+              id="image_6"
+              src="./assets/images/necklacerose-3030462_1920.jpg"
+            />
+            <img
+              class="sliding-image hide"
+              id="image_7"
+              src="./assets/images/ringamethyst-2186842_1920.jpg"
+            />
+            <img
+              class="sliding-image hide"
+              id="image_8"
+              src="./assets/images/diamonds-2142417_1280.jpg"
+            />
+            <img
+              class="sliding-image hide"
+              id="image_9"
+              src="./assets/images/ringwedding-812967_1920.jpg"
+            />
+          </div>
+          <div
+            class="chevron-left"
+            data-testid="slideToLeft"
+            id="slideToLeft"
+          />
+          <div
+            class="chevron-right"
+            data-testid="slideToRight"
+            id="slideToRight"
+          />
+        </section>
+      </div>
+    </div>
+    <div
+      class="navbar-container"
+    >
+      <div
+        class="logo"
+      >
+        <img
+          alt="alisaJewellery"
+          class="logo-image"
+          src="./assets/logo/alisa_logo.png"
+        />
+      </div>
+      <ul
+        class="navbar"
+        id="navbar-mobile-id"
+      >
+        Not Loaded
+        <li
+          class="navbar-li-access-area"
+        >
+          <button
+            class="navbar-button bton"
+            type="button"
+          >
+            Login
+          </button>
+        </li>
+        <li
+          class="navbar-li-access-area"
+        >
+           
+          <button
+            class="navbar-button bton"
+            type="button"
+          >
+            Register
+          </button>
+        </li>
+      </ul>
+      <div
+        class="navbar-mobile-button"
+      >
+        <div
+          class="navbar-mobile-line"
+        />
+        <div
+          class="navbar-mobile-line"
+        />
+        <div
+          class="navbar-mobile-line"
+        />
+      </div>
+    </div>
+    <div
+      class="customer-section"
+    >
+      <input
+        class="search-textbox"
+        type="textbox"
+      />
+      <button
+        class="search-button"
+        type="button"
+      >
+        Find
+      </button>
+      <div
+        class="contact-email"
+      >
+        contact@flowershop.com
+      </div>
+      <div
+        class="cart-info"
+      >
+        CART: 0
+      </div>
+      <ul
+        class="access-area-ul"
+      >
+        <li
+          class="access-area-li"
+        >
+          <button
+            class="login bton"
+            type="button"
+          >
+            Login
+          </button>
+           
+        </li>
+        <li
+          class="access-area-li"
+        >
+          <button
+            class="register bton"
+            type="button"
+          >
+            Register
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

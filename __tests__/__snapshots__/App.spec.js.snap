@@ -1,0 +1,518 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`File: App.js It should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App-Section"
+  >
+    <div
+      class="home-index"
+    >
+      <div
+        class="header-section"
+      >
+        <div
+          class="carousel-container"
+        >
+          <div
+            class="canvas"
+          >
+            <section
+              class="hero-carousel-container"
+              id="hero-slider-id"
+            >
+              <div
+                class="hero-carousel"
+                id="hero-carousel-id"
+              >
+                <img
+                  class="sliding-image display"
+                  id="image_0"
+                  src="./assets/images/ringpixel-bee-6XjrarDC97U-unsplash.jpg"
+                />
+                <img
+                  class="sliding-image hide"
+                  id="image_1"
+                  src="./assets/images/diamond-1186139_1920.jpg"
+                />
+                <img
+                  class="sliding-image hide"
+                  id="image_2"
+                  src="./assets/images/ring-heather-mount-ph3z4KuJ4OA-unsplash.jpg"
+                />
+                <img
+                  class="sliding-image hide"
+                  id="image_3"
+                  src="./assets/images/diamond-1199183_1920.jpg"
+                />
+                <img
+                  class="sliding-image hide"
+                  id="image_4"
+                  src="./assets/images/ringringkuromi-lu-_OG-hxrBSUQ-unsplash.jpg"
+                />
+                <img
+                  class="sliding-image hide"
+                  id="image_5"
+                  src="./assets/images/diamond-1839031_1920.jpg"
+                />
+                <img
+                  class="sliding-image hide"
+                  id="image_6"
+                  src="./assets/images/necklacerose-3030462_1920.jpg"
+                />
+                <img
+                  class="sliding-image hide"
+                  id="image_7"
+                  src="./assets/images/ringamethyst-2186842_1920.jpg"
+                />
+                <img
+                  class="sliding-image hide"
+                  id="image_8"
+                  src="./assets/images/diamonds-2142417_1280.jpg"
+                />
+                <img
+                  class="sliding-image hide"
+                  id="image_9"
+                  src="./assets/images/ringwedding-812967_1920.jpg"
+                />
+              </div>
+              <div
+                class="chevron-left"
+                id="slideToLeft"
+              />
+              <div
+                class="chevron-right"
+                id="slideToRight"
+              />
+            </section>
+          </div>
+        </div>
+        <div
+          class="navbar-container"
+        >
+          <div
+            class="logo"
+          >
+            <img
+              alt="alisaJewellery"
+              class="logo-image"
+              src="./assets/logo/alisa_logo.png"
+            />
+          </div>
+          <ul
+            class="navbar"
+            id="navbar-mobile-id"
+          >
+            Not Loaded
+            <li
+              class="navbar-li-access-area"
+            >
+              <button
+                class="navbar-button bton"
+                type="button"
+              >
+                Login
+              </button>
+            </li>
+            <li
+              class="navbar-li-access-area"
+            >
+               
+              <button
+                class="navbar-button bton"
+                type="button"
+              >
+                Register
+              </button>
+            </li>
+          </ul>
+          <div
+            class="navbar-mobile-button"
+          >
+            <div
+              class="navbar-mobile-line"
+            />
+            <div
+              class="navbar-mobile-line"
+            />
+            <div
+              class="navbar-mobile-line"
+            />
+          </div>
+        </div>
+        <div
+          class="customer-section"
+        >
+          <input
+            class="search-textbox"
+            type="textbox"
+          />
+          <button
+            class="search-button"
+            type="button"
+          >
+            Find
+          </button>
+          <div
+            class="contact-email"
+          >
+            contact@flowershop.com
+          </div>
+          <div
+            class="cart-info"
+          >
+            CART: 0
+          </div>
+          <ul
+            class="access-area-ul"
+          >
+            <li
+              class="access-area-li"
+            >
+              <button
+                class="login bton"
+                type="button"
+              >
+                Login
+              </button>
+               
+            </li>
+            <li
+              class="access-area-li"
+            >
+              <button
+                class="register bton"
+                type="button"
+              >
+                Register
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="body-section"
+      >
+        <ul
+          class="categories-container"
+        >
+          Not Loaded
+          <div
+            class="category-item category-li"
+          >
+            <button
+              class="product-category-button bton"
+              id="button-all-products-id"
+              type="button"
+            >
+               Show All
+            </button>
+          </div>
+        </ul>
+        <div
+          class="store-container"
+        >
+          <div
+            class="store-products-container"
+          >
+            Not loaded
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer-section"
+      >
+        <div
+          class="navigation-footer"
+        >
+          <div
+            class="footer-elements-ul"
+          >
+            <div
+              class="footer-element-li"
+              id="home"
+            >
+              Home
+            </div>
+            <div
+              class="footer-element-li"
+              id="about-us"
+            >
+              About Us
+            </div>
+            <div
+              class="footer-element-li"
+              id="terms-and-conditions"
+            >
+              Terms & Conditions
+            </div>
+            <div
+              class="footer-element-li"
+              id="shippings-and-returns"
+            >
+              Shippings & Returns
+            </div>
+            <div
+              class="footer-element-li"
+              id="privacy-policy"
+            >
+              Privacy Policy
+            </div>
+            <div
+              class="footer-element-li"
+              id="security"
+            >
+              Security
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer-bottom-section"
+        >
+          <div
+            class="footer-container-ul"
+          >
+            <div
+              class="footer-item-li"
+            >
+              <div>
+                <ul
+                  class="footer-newsletter-ul"
+                >
+                  <li
+                    class="footer-newsletter-li"
+                  >
+                    <span>
+                      Subscribe to our newsletter
+                    </span>
+                  </li>
+                  <li
+                    class="footer-newsletter-li"
+                  >
+                    <input
+                      class="newsletter-input"
+                      name="customer-email"
+                      placeholder="your email here"
+                      type="text"
+                    />
+                    <button
+                      class="newsletter-button"
+                      type="button"
+                    >
+                      Subscribe
+                    </button>
+                  </li>
+                </ul>
+                <li
+                  class="footer-content-li"
+                >
+                  <br />
+                </li>
+                <li
+                  class="footer-content-li"
+                >
+                  <br />
+                </li>
+                <span
+                  class="footer-title"
+                >
+                  Follow Us
+                </span>
+                <ul
+                  class="footer-content-icons-ul"
+                >
+                  <li
+                    class="footer-content-li"
+                  >
+                     
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    <br />
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    <img
+                      alt="twitter"
+                      class="twitter-icon"
+                      src="./assets/socialMedia/twitter_Logo_WhiteOnBlue.png"
+                    />
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    <div
+                      class="facebook-icon-container"
+                    >
+                      <img
+                        alt="facebook"
+                        class="facebook-icon"
+                        src="./assets/socialMedia/facebook-124010.png"
+                      />
+                    </div>
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    <img
+                      alt="instagram"
+                      class="instagram-icon"
+                      src="./assets/socialMedia/instagram-logo.png"
+                    />
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  />
+                </ul>
+                <br />
+              </div>
+            </div>
+            <div
+              class="footer-item-li"
+            >
+              <div>
+                <ul
+                  class="footer-content-ul"
+                >
+                  <li
+                    class="footer-content-li"
+                  >
+                    <span
+                      class="footer-title"
+                    >
+                      Company
+                    </span>
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    <br />
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    About Us
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    Company History
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    Location
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    International Shipping FAQ
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    Our Stores
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    Unsubscribe to Newsletter
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="footer-item-li"
+            >
+              <div>
+                <ul
+                  class="footer-content-ul"
+                >
+                  <li
+                    class="footer-company-li"
+                  >
+                    <span
+                      class="footer-title"
+                    >
+                      Customer
+                    </span>
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    <br />
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    My Account
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    Contact Us
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    Our Services
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    FAQs
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <li
+              class="footer-item-li"
+            >
+              <div>
+                <ul
+                  class="footer-content-ul"
+                >
+                  <li
+                    class="footer-content-li"
+                  >
+                    <span
+                      class="footer-title"
+                    >
+                      Our Blog
+                    </span>
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    <br />
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    Articles
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    News
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  >
+                    Videos
+                  </li>
+                  <li
+                    class="footer-content-li"
+                  />
+                </ul>
+              </div>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

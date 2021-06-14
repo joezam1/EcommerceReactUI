@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`File CustomerSection take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="customer-section"
+  >
+    <input
+      class="search-textbox"
+      type="textbox"
+    />
+    <button
+      class="search-button"
+      type="button"
+    >
+      Find
+    </button>
+    <div
+      class="contact-email"
+    >
+      contact@flowershop.com
+    </div>
+    <div
+      class="cart-info"
+    >
+      CART: 0
+    </div>
+    <ul
+      class="access-area-ul"
+    >
+      <li
+        class="access-area-li"
+      >
+        <button
+          class="login bton"
+          type="button"
+        >
+          Login
+        </button>
+         
+      </li>
+      <li
+        class="access-area-li"
+      >
+        <button
+          class="register bton"
+          type="button"
+        >
+          Register
+        </button>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

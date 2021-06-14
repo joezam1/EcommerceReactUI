@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`File SingleProductModal take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="single-product-modal"
+  >
+    <div
+      class="single-product-card single-product-display"
+    >
+      <div
+        class="single-product-buy-button"
+      >
+        Buy Now
+      </div>
+      <div
+        class="single-product-container"
+      >
+        <span
+          class="single-product-price-item"
+        >
+          $ 
+        </span>
+        <img
+          class="single-product-image"
+          src="./assets/products/undefined"
+        />
+        <span
+          class="single-product-name"
+        />
+        <span
+          class="single-product-sku"
+        />
+        <span
+          class="single-product-serial-number"
+        />
+        <span
+          class="single-product-description"
+        />
+        <div
+          class="back-to-store-button"
+        >
+           Back To Store
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

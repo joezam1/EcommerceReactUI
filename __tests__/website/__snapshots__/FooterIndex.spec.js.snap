@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`File FooterINdex.spec.js it should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="footer-section"
+  >
+    <div
+      class="navigation-footer"
+    >
+      <div
+        class="footer-elements-ul"
+      >
+        <div
+          class="footer-element-li"
+          id="home"
+        >
+          Home
+        </div>
+        <div
+          class="footer-element-li"
+          id="about-us"
+        >
+          About Us
+        </div>
+        <div
+          class="footer-element-li"
+          id="terms-and-conditions"
+        >
+          Terms & Conditions
+        </div>
+        <div
+          class="footer-element-li"
+          id="shippings-and-returns"
+        >
+          Shippings & Returns
+        </div>
+        <div
+          class="footer-element-li"
+          id="privacy-policy"
+        >
+          Privacy Policy
+        </div>
+        <div
+          class="footer-element-li"
+          id="security"
+        >
+          Security
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer-bottom-section"
+    >
+      <div
+        class="footer-container-ul"
+      >
+        <div
+          class="footer-item-li"
+        >
+          <div>
+            <ul
+              class="footer-newsletter-ul"
+            >
+              <li
+                class="footer-newsletter-li"
+              >
+                <span>
+                  Subscribe to our newsletter
+                </span>
+              </li>
+              <li
+                class="footer-newsletter-li"
+              >
+                <input
+                  class="newsletter-input"
+                  name="customer-email"
+                  placeholder="your email here"
+                  type="text"
+                />
+                <button
+                  class="newsletter-button"
+                  type="button"
+                >
+                  Subscribe
+                </button>
+              </li>
+            </ul>
+            <li
+              class="footer-content-li"
+            >
+              <br />
+            </li>
+            <li
+              class="footer-content-li"
+            >
+              <br />
+            </li>
+            <span
+              class="footer-title"
+            >
+              Follow Us
+            </span>
+            <ul
+              class="footer-content-icons-ul"
+            >
+              <li
+                class="footer-content-li"
+              >
+                 
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                <br />
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                <img
+                  alt="twitter"
+                  class="twitter-icon"
+                  src="./assets/socialMedia/twitter_Logo_WhiteOnBlue.png"
+                />
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                <div
+                  class="facebook-icon-container"
+                >
+                  <img
+                    alt="facebook"
+                    class="facebook-icon"
+                    src="./assets/socialMedia/facebook-124010.png"
+                  />
+                </div>
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                <img
+                  alt="instagram"
+                  class="instagram-icon"
+                  src="./assets/socialMedia/instagram-logo.png"
+                />
+              </li>
+              <li
+                class="footer-content-li"
+              />
+            </ul>
+            <br />
+          </div>
+        </div>
+        <div
+          class="footer-item-li"
+        >
+          <div>
+            <ul
+              class="footer-content-ul"
+            >
+              <li
+                class="footer-content-li"
+              >
+                <span
+                  class="footer-title"
+                >
+                  Company
+                </span>
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                <br />
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                About Us
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                Company History
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                Location
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                International Shipping FAQ
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                Our Stores
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                Unsubscribe to Newsletter
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="footer-item-li"
+        >
+          <div>
+            <ul
+              class="footer-content-ul"
+            >
+              <li
+                class="footer-company-li"
+              >
+                <span
+                  class="footer-title"
+                >
+                  Customer
+                </span>
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                <br />
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                My Account
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                Contact Us
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                Our Services
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                FAQs
+              </li>
+            </ul>
+          </div>
+        </div>
+        <li
+          class="footer-item-li"
+        >
+          <div>
+            <ul
+              class="footer-content-ul"
+            >
+              <li
+                class="footer-content-li"
+              >
+                <span
+                  class="footer-title"
+                >
+                  Our Blog
+                </span>
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                <br />
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                Articles
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                News
+              </li>
+              <li
+                class="footer-content-li"
+              >
+                Videos
+              </li>
+              <li
+                class="footer-content-li"
+              />
+            </ul>
+          </div>
+        </li>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

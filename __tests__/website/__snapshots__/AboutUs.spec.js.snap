@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`file AboutUs create a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="about-us"
+  >
+    <div
+      class="about-us-background"
+    />
+    <div
+      class="about-us-container"
+    >
+      <div
+        class="about-us-page"
+      >
+        <div
+          class="button-go-home"
+        >
+          <span
+            class="button-go-home-text"
+            data-testid="button-go-home-id"
+          >
+            ×
+          </span>
+        </div>
+        <div>
+          <div
+            class="navigation-footer"
+          >
+            <div
+              class="footer-elements-ul"
+            >
+              <div
+                class="footer-element-li"
+                data-testid="home"
+                id="home"
+              >
+                Home
+              </div>
+              <div
+                class="footer-element-li"
+                data-testid="about-us"
+                id="about-us"
+              >
+                About Us
+              </div>
+              <div
+                class="footer-element-li"
+                id="terms-and-conditions"
+              >
+                Terms & Conditions
+              </div>
+              <div
+                class="footer-element-li"
+                id="shippings-and-returns"
+              >
+                Shippings & Returns
+              </div>
+              <div
+                class="footer-element-li"
+                id="privacy-policy"
+              >
+                Privacy Policy
+              </div>
+              <div
+                class="footer-element-li"
+                id="security"
+              >
+                Security
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div
+          class="about-us-page-content"
+        >
+          <h2>
+            ABOUT US
+          </h2>
+          <p>
+            We are an Australian based online jewellery store. Our website houses an impeccable blend of iconic designs. Excellent customer service is the secret to our success and you can have confidence that the highest standards of service and integrity will be maintained in our dealings with you.
+          </p>
+          <p>
+            From this website you can see our gorgeous variety, create a wish list, and shop for numerous styles creating a unique personal statement for you. All our orders will ship within 24 -48 hours (subject to availability).
+          </p>
+          <p>
+            If you have a question, please don’t hesitate to ask via the Contact Us page.
+          </p>
+          <p>
+            We hope you enjoy our wonderful products.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
