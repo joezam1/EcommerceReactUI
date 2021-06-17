@@ -69,9 +69,9 @@ export default function HomeIndex(){
         abortController.abort();
     }
     useEffect(function(){
-        mockResponseCallback();
-        //Methods.getMethod(url, homeBodyResponseCallback );
-        //return cleanupFetch();
+        //mockResponseCallback();
+        Methods.getMethod(url, homeBodyResponseCallback );
+        return cleanupFetch();
     },[]);
 
 
