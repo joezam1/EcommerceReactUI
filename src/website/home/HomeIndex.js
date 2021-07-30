@@ -9,7 +9,8 @@ import Methods from '../../httpRequests/Methods.js';
 export default function HomeIndex(){
 
     const abortController = new AbortController();
-    const url = 'http://localhost:5000/api/shop/all-components';
+    const urlLocal = 'http://localhost:5000/api/shop/all-components';
+    const url = 'http://jzasp01-001-site2.gtempurl.com/api/shop/all-components';
     //NOTE: For Development need to go to Chrome and select
     //chrome://flags/
     // Then search for : certificates and 
