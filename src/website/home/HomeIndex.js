@@ -10,7 +10,7 @@ export default function HomeIndex(){
 
     const abortController = new AbortController();
     const urlLocal = 'http://localhost:5000/api/shop/all-components';
-    const url = 'http://jzasp01-001-site2.gtempurl.com/api/shop/all-components';
+    const url = 'https://shopvirtualstore.com/api/shop/all-components';
     //NOTE: For Development need to go to Chrome and select
     //chrome://flags/
     // Then search for : certificates and 

@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 
 const jsEntryPath = path.join(__dirname,'./index.js');
 const htmlEntryPath = path.join(__dirname, './index.html');
@@ -39,7 +41,13 @@ module.exports = {
         port:3080
     },
     plugins:[
-        htmlPlugin,cleanWebpackPlugin
+        htmlPlugin,cleanWebpackPlugin,
+        new CopyWebpackPlugin({
+            patterns:[
+                {from:path.join(__dirname,'./assets'), to:path.join(__dirname,'./dist/assets')},
+                {from:path.join(__dirname,'./dataJson'), to:path.join(__dirname,'./dist/dataJson')}
+            ]
+        })
     ],
     resolve:{
         extensions:['.css','.scss','.js', '.jsx']
