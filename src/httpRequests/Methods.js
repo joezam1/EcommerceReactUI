@@ -1,7 +1,7 @@
 import Utils from '../library/Utils.js';
 
 const authHeaders = new Headers({
-    'Access-Control-Allow-Origin': 'http://localhost:3080',
+    'Access-Control-Allow-Origin': 'https://www.alisajewellery.com/',
     "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
     'Content-Type' : 'application/json',
     'Accept': 'application/json'
