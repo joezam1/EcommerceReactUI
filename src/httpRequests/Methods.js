@@ -1,18 +1,22 @@
 import Utils from '../library/Utils.js';
 
-const authHeaders = new Headers({
-    'Access-Control-Allow-Origin': 'https://www.alisajewellery.com/',
-    "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
-    'Content-Type' : 'application/json',
-    'Accept': 'application/json'
-}) 
-
-const options={
-    method:'GET',
-    headers: authHeaders
-}
 
 var getMethod = function(url, responseCallback){
+
+    const authHeaders = new Headers({
+        'Access-Control-Allow-Origin': 'https://www.alisajewellery.com/',
+        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+        'Content-Type' : 'application/json',
+        'Accept': 'application/json'
+    }) 
+    
+    
+    const options={
+        method:'GET',
+        headers: authHeaders
+    }
+        
+
     fetch(url,options)
     .then(function(response){
         var responseClone = response.clone();
